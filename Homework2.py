@@ -24,3 +24,8 @@ print(f"Answer is: {result}")
 # Приклад:
 # Введіть кількість хвилин: 135
 # 2 години 15 хвилин
+
+amount_of_minutes = int(input("Enter how many minutes: "))
+amount_of_hours = amount_of_minutes // 60
+amount_of_minutes_left = amount_of_minutes % 60
+print(f"{amount_of_hours} hours and {amount_of_minutes_left} minutes")
