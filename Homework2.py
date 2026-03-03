@@ -52,3 +52,15 @@ print(f"Answer is: {result}")
 
 user_number = int(input("Enter a number: "))
 print(f"The last digit of {user_number} is {user_number % 10}")
+
+
+# 6. “Периметр прямокутника”
+# Користувач вводить довжину і ширину. Програма виводить периметр.
+# Приклад:
+# Введіть довжину: 5
+# Введіть ширину: 3
+# Периметр: 16
+
+length = int(input("Enter a length of rectangle: "))
+width = int(input("Enter a width of rectangle: "))
+print(f"Perimetr of rectangle is: {2*(length+width)}")
