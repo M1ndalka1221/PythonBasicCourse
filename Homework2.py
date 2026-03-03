@@ -64,3 +64,19 @@ print(f"The last digit of {user_number} is {user_number % 10}")
 length = int(input("Enter a length of rectangle: "))
 width = int(input("Enter a width of rectangle: "))
 print(f"Perimetr of rectangle is: {2*(length+width)}")
+
+# 7. Виведення числа в стовпчик
+#
+# Написати програму, яка просить користувача ввести 4-х значне число з клавіатури, після чого друкує на екрані стовпчик цифр,
+# з якого це число складається. Наприклад, користувач вводить 1234, а програма виводить:
+
+
+four_digit_number = int(input("Enter a four digit number: "))
+first_digit = four_digit_number // 1000
+second_digit = four_digit_number // 100 % 10
+third_digit = four_digit_number // 10 % 10
+fourth_digit = four_digit_number % 10
+print(first_digit)
+print(second_digit)
+print(third_digit)
+print(fourth_digit)
