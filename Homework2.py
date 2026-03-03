@@ -42,3 +42,13 @@ price = int(input("Enter a price: "))
 discount = int(input("Enter a discount: "))
 result = price - ((price * discount) / 100)
 print(f"Answer is: {result}")
+
+
+# 5. “Остання цифра числа”
+# Користувач вводить ціле число, програма виводить його останню цифру.
+# Приклад:
+# Введіть число: 347
+# Остання цифра: 7
+
+user_number = int(input("Enter a number: "))
+print(f"The last digit of {user_number} is {user_number % 10}")
