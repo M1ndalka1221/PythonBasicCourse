@@ -16,4 +16,4 @@ match users_choice:
         if second_number == 0:
             print("Enter a correct number")
         else:
-            print(first_number / second_number)
+            print(first_number / second_number
