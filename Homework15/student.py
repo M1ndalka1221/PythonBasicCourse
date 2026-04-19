@@ -8,3 +8,11 @@ class Student(Human):
 
     def __str__(self):
         return f"{super().__str__()}, {self.record_book}"
+
+    def __eq__(self, other):
+        if isinstance(other, Student):
+            return str(self) == str(other)
+        return False
+
+    def __hash__(self):
+        return hash(str(self))
